@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#E5CCFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/hard"
+        android:layout_width="147dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="254dp"
+        android:text="Level : Hard"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/PickLevel"
+        android:layout_width="159dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="117dp"
+        android:text="Guess The Word"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/etGuess"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvWord"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="95dp"
+        android:ems="10"
+        android:hint="Guess the Word"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnMedium"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="297dp"
+        android:layout_marginEnd="112dp"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/btnHard"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="587dp"
+        android:layout_marginEnd="113dp"
+        android:text="Next" />
+
+    <TextView
+        android:id="@+id/tvWord"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PickLevel"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="26dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24dp" />
+
+</RelativeLayout>
